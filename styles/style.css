@@ -1,0 +1,179 @@
+/* Common Styles */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.work-sans {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+/* Shared Styles */
+
+.container-width {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.color-primary {
+  color: #ff900e;
+}
+.color-secondary {
+  color: #131313;
+}
+.color-paragraph-1 {
+  color: #727272;
+}
+
+.color-paragraph-2 {
+  color: #424242;
+}
+
+.bg-primary-1 {
+  background-color: rgba(255, 144, 14, 0.1);
+}
+
+.bg-primary-2 {
+  background-color: #ff900e;
+}
+
+.section-padding {
+  padding: 120px 0;
+}
+
+.section-title {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.btn {
+  display: inline-block;
+  color: #fff;
+  padding: 20px 24px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* Header Area */
+
+header {
+  padding-bottom: 50px;
+}
+
+nav {
+  padding: 50px 0 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .logo-brand h2 {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+nav ul {
+  gap: 80px;
+}
+
+nav ul li a {
+  color: #424242;
+  font-weight: 500;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
+/* Banner Area */
+
+.banner {
+  flex-direction: column;
+}
+
+.banner-content {
+  max-width: 870px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.banner-title {
+  font-size: 64px;
+  font-weight: 700;
+  margin-bottom: 26px;
+}
+
+.banner-description {
+  margin-bottom: 32px;
+}
+
+/* Team Section */
+
+.team-section-container {
+  align-items: center;
+  gap: 70px;
+}
+
+.team-section-img {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.team-section-content {
+  max-width: 530px;
+}
+
+.team-section-content-title {
+  font-size: 45px;
+}
+
+.team-section-content-title-1 {
+  font-weight: 400;
+}
+
+.team-section-content-description {
+  margin: 24px 0 32px;
+  line-height: 26px;
+}
+
+/* Footer Area */
+
+footer {
+  text-align: center;
+}
+
+.footer-container {
+  padding: 40px 0;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+.footer-container p {
+  font-size: 20px;
+}
