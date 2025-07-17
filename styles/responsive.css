@@ -54,6 +54,12 @@
     padding: 0 12px;
   }
 
+  /* Section Padding */
+
+  .section-padding {
+    padding: 24px 0;
+  }
+
   /* Teams Area */
 
   .team-section-container {
@@ -88,6 +94,46 @@
     font-size: 16px;
     font-weight: 500;
     text-align: center;
+  }
+
+  /* Feature SEction */
+
+  .feature-container {
+    flex-direction: column;
+  }
+
+  .feature-container-title {
+    font-size: 22px;
+    margin-bottom: 14px;
+  }
+
+  .feature-container-description {
+    line-height: 20px;
+    margin-bottom: 8px;
+    font-size: 14px;
+  }
+
+  .feature-container-card {
+    padding: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    margin-bottom: 12px;
+    line-height: 20px;
+    font-size: 14px;
+  }
+
+  .feature-container-right p {
+    padding: 20px 22px;
+    font-size: 40px;
+    font-weight: 700;
+    position: absolute;
+    left: 0px;
+    bottom: 0;
+    color: #fff;
   }
 }
 
@@ -147,6 +193,59 @@
     grid-template-columns: repeat(4, 1fr);
     gap: 24px;
   }
+
+  .section-padding {
+    padding: 50px 0;
+  }
+
+  .feature-container-left {
+    max-width: 400px;
+  }
+
+  .feature-container-title {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 14px;
+    padding-left: 22px;
+    border-left: 6px solid #ff900e;
+  }
+
+  .feature-container-description {
+    line-height: 20px;
+    margin-bottom: 0px;
+    font-size: small;
+  }
+
+  .feature-container-card {
+    padding: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    margin-bottom: 10px;
+    line-height: 26px;
+  }
+
+  .feature-container-card h3 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 0px;
+  }
+
+  .feature-container-card p {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .feature-container-right p {
+    padding: 26px 30px;
+    font-size: 44px;
+    text-align: center;
+    left: 0px;
+    bottom: 0;
+}
 
   /* Footer */
 
