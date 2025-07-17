@@ -135,6 +135,29 @@
     bottom: 0;
     color: #fff;
   }
+
+  /* Sponsors */
+
+  .sponsor-container h2 {
+    font-size: 32px;
+  }
+
+  .sponsor-container p {
+    margin-top: 12px;
+    margin-bottom: 50px;
+  }
+
+  .sponsors-img {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .sponsors-img img {
+    width: auto;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -245,11 +268,21 @@
     text-align: center;
     left: 0px;
     bottom: 0;
-}
+  }
 
   /* Footer */
 
   .footer-container p {
     font-size: 14px;
+  }
+
+  /* sponsor */
+
+  .sponsors-img {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
   }
 }
